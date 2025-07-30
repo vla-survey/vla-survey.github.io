@@ -258,6 +258,8 @@ pre {
     border-radius: 4px;
     padding: 10px;
     background-color: #f8f9fa;
+    max-width: 80%;
+    height: auto;
 }
 
 .figure-caption {
