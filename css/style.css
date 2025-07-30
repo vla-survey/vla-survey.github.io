@@ -268,11 +268,6 @@ pre {
     font-style: italic;
 }
 
-/* Same height images */
-.same-height {
-    object-fit: contain;
-    height: 400px;
-}
 
 /* Responsive */
 @media (max-width: 768px) {
