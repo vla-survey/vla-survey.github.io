@@ -1,0 +1,12 @@
+# Robots.txt for VLA Survey
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+Disallow:
+
+# Sitemap location
+Sitemap: https://vla-survey.github.io/sitemap.xml
+
+# Crawl-delay (optional - helps prevent server overload)
+Crawl-delay: 1
