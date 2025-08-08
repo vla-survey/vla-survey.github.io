@@ -101,6 +101,11 @@
             width: auto;
             margin-right: 8px;
         }
+        
+        .arxiv-button i {
+            font-size: 18px;
+            margin-right: 8px;
+        }
     </style>
 </head>
 <body>
@@ -109,8 +114,7 @@
             <div class="col-lg-10 offset-lg-1 col-md-12">
 
                 <div class="text-center">
-                    <h1 class="mt-5"><b>Vision-Language-Action Models Survey</b></h1>
-                    <h2 class="mt-3"><b>Vision-Language-Action Models for Robotics:<br>A Review Towards Real-World Applications</b></h2>
+                    <h2 class="mt-5"><b>Vision-Language-Action Models for Robotics:<br>A Review Towards Real-World Applications</b></h2>
                     <h4 class="mt-4 conf"><b>2025</b></h4>
 
                     <ul class="list-inline mt-4">
@@ -124,21 +128,24 @@
                             <a href="https://junjungoal.github.io/" target="_blank">Jun Yamada</a><sup>(b)</sup>
                         </li>
                         <li class="list-inline-item ml-4">
-                            <a href="https://eng.ox.ac.uk/people/ingmar-posner/" target="_blank">Ingmar Posner</a><sup>(b)</sup>
+                            <a href="https://eng.ox.ac.uk/people/ingmar-posner/" target="_blank">Ingmar Posner</a><sup>(b)*</sup>
                         </li>
                         <li class="list-inline-item ml-4">
-                            <a href="https://yukezhu.me/" target="_blank">Yuke Zhu</a><sup>(c)</sup>
+                            <a href="https://yukezhu.me/" target="_blank">Yuke Zhu</a><sup>(c)*</sup>
                         </li>
                         <li class="mt-2">
                             <sup>(a)</sup> The University of Tokyo, <sup>(b)</sup> University of Oxford, <sup>(c)</sup> The University of Texas at Austin
                         </li>
+                        <li class="mt-1">
+                            <sup>*</sup> Equal advising
+                        </li>
                     </ul>
 
-                    <!-- arXiv 버튼 추가 -->
+                    <!-- Paper Download Button -->
                     <div class="mt-4">
-                        <a href="#" target="_blank" class="arxiv-button">
-                            <img src="data/arxiv.png" alt="arXiv">
-                            arXiv
+                        <a href="data/paper.pdf" target="_blank" class="arxiv-button">
+                            <i class="bi bi-file-earmark-pdf"></i>
+                            Paper PDF
                         </a>
                     </div>
                 </div>
@@ -148,7 +155,7 @@
                     <div class="col-lg-10 offset-lg-1">
                         <h4 class="text-center">Overview</h4>
                         <figure class="figure w-100 text-center">
-                            <img src="data/overview.png" class="figure-img img-fluid" alt="Overview of Vision-Language-Action Models">
+                            <img src="data/overview.png" class="figure-img img-fluid" alt="Overview of Vision-Language-Action Models Survey showing the transition from separate vision, language, and action models to unified VLA architectures for robotics applications">
                             <figcaption class="figure-caption">Figure: Overview of Vision-Language-Action Models Survey</figcaption>
                         </figure>
                     </div>
@@ -171,7 +178,7 @@
                 <div class="row mt-4">
                     <div class="col-lg-10 offset-lg-1">
                         <figure class="figure w-100 text-center">
-                            <img src="data/method.png" class="figure-img img-fluid" alt="Method">
+                            <img src="data/method.png" class="figure-img img-fluid" alt="VLA modality processing, architecture design, and learning paradigms including vision encoders, language models, and action decoders">
                             <figcaption class="figure-caption">Figure: Modality, Architecture and Learning Paradigm of VLA</figcaption>
                         </figure>
                     </div>
@@ -181,7 +188,7 @@
                 <div class="row mt-4">
                     <div class="col-lg-10 offset-lg-1">
                         <figure class="figure w-100 text-center">
-                            <img src="data/data.png" class="figure-img img-fluid" alt="Data">
+                            <img src="data/data.png" class="figure-img img-fluid" alt="Robot platforms, data collection methods, datasets, and evaluation benchmarks for Vision-Language-Action models">
                             <figcaption class="figure-caption">Figure: Robot, Data Collection, Dataset and Evaluation for VLA</figcaption>
                         </figure>
                     </div>
@@ -306,9 +313,10 @@
                     <h4 id="bibtex">BibTeX</h4>
                     <pre>
 @misc{vla-survey2025,
-    title={Vision-Language-Action Models Survey},
+    title={Vision-Language-Action Models for Robotics: A Review Towards Real-World Applications},
     author={Kento Kawaharazuka and Jihoon Oh and Jun Yamada and Ingmar Posner and Yuke Zhu},
-    year={2025}
+    year={2025},
+    howpublished={\url{https://vla-survey.github.io}}
 }
                     </pre>
                 </div>
